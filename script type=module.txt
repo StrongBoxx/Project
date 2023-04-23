@@ -1,0 +1,20 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD-gIwNLSO169SVj8f5qdBjuzo5Kzr5bdo",
+    authDomain: "strongboxx-db92c.firebaseapp.com",
+    databaseURL: "https://strongboxx-db92c-default-rtdb.firebaseio.com",
+    projectId: "strongboxx-db92c",
+    storageBucket: "strongboxx-db92c.appspot.com",
+    messagingSenderId: "685404967390",
+    appId: "1:685404967390:web:241cd138b2a302a5f44d4f"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
